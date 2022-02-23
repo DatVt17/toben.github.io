@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2022, 10:05:08 AM
+    Author     : Admin
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: url(Background-dep-vector.jpg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 40%;
+    height: 80%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.inputtext{
+    background: url(m.png)no-repeat 0px 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 13px 20px 44px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 87%;
+    margin: 0 0 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.inputpassword{
+    background: url(l.png)no-repeat 0px 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 13px 20px 44px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 87%;
+    margin: 0 0 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.inputemail{
+    background: url(l.png)no-repeat 0px 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 13px 20px 44px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 87%;
+    margin: 0 0 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+h6 a:hover{
+    color: #ff3366;
+}
+h6 a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.sub:hover{
+    background-color: red;
+}
+.sub{
+    background: #ff3366;
+    color: #FFF;
+    font-size: 26px;
+    padding: 0.3em 1.2em;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+.gender{
+    margin-left: 10px;
+    color: white;
+}
+.inputradio{
+    margin: 0px 20px;
+}
+.birthday{
+    margin-left: 10px;
+    color: white;
+}
+.inputdate{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.inputreset:hover{
+    background-color: #ccc;
+}
+.inputreset{
+    background: #fff;
+    font-size: 26px;
+    padding: 0.3em 1.2em;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+
